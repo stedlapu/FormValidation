@@ -1,0 +1,53 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("https://www.itl.cat/pngfile/big/216-2163483_big-leather-logo-car-logos-wallpaper-hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background for better readability */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #5ecef0;
+    border-radius: 3px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    background-color: #00f73e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
